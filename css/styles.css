@@ -7221,12 +7221,9 @@ font-family: AGOpus;
     width: calc(33.333%);
 }
 
-.news .article:nth-child(2n-1) .img {
-    order: 2;
-}
 
-.news .article:nth-child(2n) .img:before {
-    top: calc(100% - 50px);
+.news .article .img:before {
+
 }
 
 .news .article
@@ -7276,7 +7273,7 @@ font-family: AGOpus;
     position: absolute;
     z-index: 2;
     left: 50%;
-    top: -50px;
+    top: calc(100% - 50px);
 }
 
 .news .article img
