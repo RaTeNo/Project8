@@ -44,7 +44,9 @@
         margin-top: 30px;
     }
 
-
+    .block .link{
+        letter-spacing: 3px;
+    }
 
     .pagination
     {

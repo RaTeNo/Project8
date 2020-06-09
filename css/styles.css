@@ -2113,7 +2113,7 @@ aside .cats label:before
     content: '';
     transition: border-color .2s linear;
 
-    border: 1px solid #ааа;
+    border: 1px solid #fff;
     border-radius: 7px;
     background: #fff;
 }
@@ -3602,7 +3602,6 @@ aside > *:last-child
 .documents .item
 {
     color: #131313;
-    font-family: var(--font_family2);
     font-size: 14px;
     line-height: 14px;
 
@@ -4946,7 +4945,6 @@ margin-top: 14px;
 
 .products .product
 {
-    color: var(--color_main1);
 
     position: relative;
 
