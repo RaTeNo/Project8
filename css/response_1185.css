@@ -402,7 +402,6 @@
     {
         width: 475px;
         height: 565px;
-        top: 40px;
     }
 
 
@@ -1120,4 +1119,22 @@
     .three_photo .block_head{
         width:380px;
     }
+
+    .main_slider{
+        margin-bottom:0px;
+        margin-top:-60px;
+    }
+
+
+    .block:nth-child(2n).main_slider{
+        padding:0;
+        margin-bottom: 60px;
+    }
+
+    .block:nth-child(2n).main_slider2, .block:nth-child(2n).main_slider, .block:nth-child(2n).main_slider3, .block:nth-child(2n).first_section{
+        margin-bottom:60px;
+        margin-top: 0px;
+    } 
+
+
 }

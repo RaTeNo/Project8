@@ -1122,4 +1122,10 @@
     .about_video .link{
         margin-top:20px;
     }
+
+    .main_slider {
+        margin-bottom: 0px;
+        margin-top: -60px;
+    }
+
 }

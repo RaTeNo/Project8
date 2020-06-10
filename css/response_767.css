@@ -1516,6 +1516,12 @@
     .director_letter .img:before{
         display: none;
     }
+
+    .main_slider {
+        margin-bottom: 0px;
+        margin-top: -50px;
+    }
+
 }
 
 

@@ -650,6 +650,9 @@ $(function(){
 	{
 		$(".main .block:last-child").addClass("remove_margin");
 	}
+
+
+	 equalHeight($(".stocks .stock .thumb + .info"));
 	
 
 })
@@ -663,3 +666,14 @@ function hexDec(h){
 	 
 	return(m.join(','));
  };
+
+ function equalHeight(group) {
+    var tallest = 0;
+    group.each(function() {
+        thisHeight = $(this).height();
+        if(thisHeight > tallest) {
+            tallest = thisHeight;
+        }
+    });
+    group.height(tallest);
+}

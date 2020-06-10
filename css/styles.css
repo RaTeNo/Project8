@@ -471,7 +471,7 @@ body.lock
     --form_success_color: green;
     --form_border_radius: 12px;
     --form_bg_color: #eef9ff;
-    --form_placeholder_color: #555555;
+    --form_placeholder_color: rgba(85, 85, 85, 0.3);
 }
 
 .form ::-webkit-input-placeholder
@@ -1479,8 +1479,8 @@ header .menu .item > a.touch_link + .sub_menu.show
 header .menu .sub_menu a
 {
     color: #fff;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 13px;
+    font-weight: normal;
     line-height: 17px;
 
     display: flex;
@@ -1491,7 +1491,7 @@ header .menu .sub_menu a
     transition: background .2s linear;
     white-space: nowrap;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: none;
 
     border-radius: 0;
 
@@ -1607,27 +1607,23 @@ header .menu .flexMenu-popup .item
 header .menu .flexMenu-popup .item a
 {
     color: #fff;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 13px;
     line-height: 17px;
-
+    font-weight: normal;
     display: flex;
-
     height: 56px;
     padding: 15px 40px;
-
     transition: background .2s linear;
     white-space: nowrap;
     text-decoration: none;
-    text-transform: uppercase;
-
+    text-transform: none;
     border-radius: 0;
     background: var(--main_color1);
-
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-wrap: nowrap;
+    letter-spacing: 0;
 }
 
 header .menu .flexMenu-popup .item:first-child a
@@ -2250,8 +2246,8 @@ aside > *:last-child
     font-family: AGOpus;
     font-style: normal;
     font-weight: bold;
-    font-size: 77px;
-    line-height: 79px;
+    font-size: 51px;
+    line-height: 60px;
     color: #1A1A1A;
 }
 
@@ -2310,6 +2306,7 @@ aside > *:last-child
     -webkit-mask-size: contain;
     mask: url(../images/svg_bg_main.svg);
     -webkit-mask-box-image: url(../images/svg_bg_main.svg);
+    object-fit: cover;
 }
 
 .first_section .img:before {
@@ -2338,6 +2335,7 @@ aside > *:last-child
 .first_section .img.no_mask img{
     mask: none;
     -webkit-mask-box-image: none;
+    object-fit: contain;
 }
 
 .main_slider .owl-carousel .owl-nav button
@@ -2425,8 +2423,8 @@ aside > *:last-child
     font-family: AGOpus;
     font-style: normal;
     font-weight: bold;
-    font-size: 70px;
-    line-height: 68px;
+    font-size: 51px;
+    line-height: 60px;
     text-align: center;
 }
 
@@ -2483,8 +2481,8 @@ aside > *:last-child
     font-family: AGOpus;
     font-style: normal;
     font-weight: bold;
-    font-size: 70px;
-    line-height: 68px;
+    font-size: 51px;
+    line-height: 60px;
 }
 
 .main_slider2 .info .desc
@@ -2575,8 +2573,8 @@ aside > *:last-child
     font-family: AGOpus;
     font-style: normal;
     font-weight: bold;
-    font-size: 77px;
-    line-height: 79px;
+    font-size: 51px;
+    line-height: 60px;
     color: #1A1A1A;
 }
 
@@ -2646,6 +2644,7 @@ aside > *:last-child
 .advantages .item .inner
 {
    order:2;
+   height: 100%;
 }
 .advantages .item
 {
@@ -2711,10 +2710,7 @@ aside > *:last-child
 
 .advantages .item .desc
 {
-    font-size: 12px;
-    line-height: 23px;
-    font-weight: 500;
-    margin-top: 14px;
+
 }
 
 .about .cont
@@ -3118,7 +3114,6 @@ aside > *:last-child
 
 .reviews .review .text
 {
-    font-size: 14px;
     line-height: 27px;
 
     margin-top: 14px;
@@ -3487,11 +3482,6 @@ aside > *:last-child
 }
 
 
-.prices .item:nth-child(2n) .desc
-{
-    color: ##F9F9F9;
-}
-
 
 .prices .item
 {
@@ -3540,7 +3530,6 @@ aside > *:last-child
 }
 .prices .item  .desc
 {
-    font-size: 14px;
     line-height: 27px;
 }
 
@@ -4221,12 +4210,9 @@ margin-top: 14px;
 .team .item .desc
 {
     margin-top: 15px;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 23px;
+   
     text-align: center;
-    letter-spacing: 0.22px;
-    color: #979797;
+      color: #979797;
 }
 
 .team .item .box_team_item
@@ -4507,7 +4493,9 @@ margin-top: 14px;
 
     opacity: 0;
 }
-
+.vacancies .owl-item:nth-child(2n) .slide {
+    background: #F7F7F7;
+}
 .vacancies .owl-item.active
 {
     visibility: visible;
@@ -4526,9 +4514,7 @@ margin-top: 14px;
 .vacancies .item
 {
     padding: 40px;
-
-    border-radius: 31px;
-    background: #f6f8fe;
+    text-align: center;
 }
 
 
@@ -4542,40 +4528,39 @@ margin-top: 14px;
 }
 .vacancies .item .name a
 {
-    color: #343537;
-    font-size: 24px;
-    font-weight: bold;
-    font-style: normal;
-    line-height: 29px;
-
     position: relative;
-
     display: inline-block;
-
     padding-bottom: 15px;
-
     vertical-align: top;
     text-decoration: none;
+    font-family: AGOpus;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #27242B;
+    text-align: center;
 }
 
 .vacancies .item .desc
 {
-    color: #444;
+    color: #979797;
     line-height: 23px;
 
-    margin-top: 24px;
+    margin-top:14px;
 
     letter-spacing: .3px;
 }
 
 .vacancies .item .desc .title
 {
-    color: #787878;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 21px;
-
     margin-bottom: 9px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.264706px;
+    color: #575757;
 }
 
 .vacancies .item .link
@@ -4908,7 +4893,6 @@ margin-top: 14px;
 {
     margin-top: 50px;
 
-    justify-content: center;
 }
 
 .gallery .flex.images > *
@@ -4925,7 +4909,6 @@ margin-top: 14px;
 
 .products .flex
 {
-    justify-content: center;
     align-items: stretch;
 }
 
@@ -6771,7 +6754,7 @@ color: var(--main_color1);
 }
 .about_video .info
 {
-    width: 600px;
+    width: 670px;
     max-width: calc(100% - 476px);
     background: #FFFFFF;
     padding: 65px;
@@ -6948,7 +6931,6 @@ font-family: AGOpus;
 .quiz_poll .step .desc
 {
     color: #0b162b;
-    font-size: 14px;
     line-height: 22px;
 
     margin-top: 15px;
@@ -7885,7 +7867,6 @@ footer .links a:hover
 
     margin-left: auto;
 
-    justify-content: center;
     flex-wrap: wrap;
 }
 .gallery2 .flex > div
@@ -8047,7 +8028,7 @@ aside .submit .reset
     cursor: pointer;
 
     border: none;
-    background: #f13245;
+    background: var(--main_color2);
 
     flex-shrink: 0;
 }
@@ -8255,6 +8236,8 @@ aside .submit .reset i:after
 
 .block:nth-child(2n-1).socials_block .data{
        background-color: #F7F7F7;
+       padding: 40px;
+
 }
 
 .block:nth-child(2n-1).about_video .info{
@@ -8265,6 +8248,10 @@ aside .submit .reset i:after
         background-color: #fff;
 }
 
+
+.block:nth-child(2n).vacancies .owl-item:nth-child(2n) .slide{
+    background: #fff;
+}
 
 .comments.block{
     margin-bottom: 0px;
@@ -8281,3 +8268,20 @@ aside .submit .reset i:after
 .poll .desc table{
     width: 100% !important;
 }
+
+
+.main_slider{
+    margin-bottom:0px;
+    margin-top:-120px;
+}
+
+
+.block:nth-child(2n).main_slider{
+    padding:0;
+    margin-bottom: 120px;
+}
+
+.block:nth-child(2n).main_slider2, .block:nth-child(2n).main_slider, .block:nth-child(2n).main_slider3, .block:nth-child(2n).first_section{
+    margin-bottom:120px;
+    margin-top: 0px;
+} 
