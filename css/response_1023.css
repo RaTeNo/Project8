@@ -1657,4 +1657,9 @@
         margin-top: -70px;
     }
 
+    .stock_finish div.center{
+        width:100%;
+        text-align: center;
+    }
+
 }
