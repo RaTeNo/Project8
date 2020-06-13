@@ -845,6 +845,7 @@
         margin: 0 auto 30px;
 
         column-gap: 20px;
+        column-count: 1;
     }
 
     .news .flex

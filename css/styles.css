@@ -1660,6 +1660,7 @@ header .menu .flexMenu-popup .item > a.touch_link + .sub_menu.show
 {
     top: 0;
     right: 100%;
+    margin-bottom:0;
 }
 
 .mob_header

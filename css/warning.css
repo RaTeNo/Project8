@@ -41,3 +41,14 @@ body{
 		margin-top:90px;
 	}
 }
+
+.overlay{
+    z-index: 1000;
+}
+
+@media (max-width: 1023px)
+{
+    header {
+        z-index: 1001 !important;
+    }
+}
