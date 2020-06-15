@@ -1664,8 +1664,8 @@
 
     .new_contact{
         display: flex;
-        width: 35px;
-        height: 35px;
+        width: 33px;
+        height: 33px;
         padding: 8px;
         border-radius: 50%;
         background: var(--main_color2);
