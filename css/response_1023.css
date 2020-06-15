@@ -1662,4 +1662,22 @@
         text-align: center;
     }
 
+    .new_contact{
+        display: flex;
+        width: 35px;
+        height: 35px;
+        padding: 8px;
+        border-radius: 50%;
+        background: var(--main_color2);
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+    .new_contact img{
+        display: block;
+        max-width: 100%;
+        max-height: 100%; 
+    }
+
 }
