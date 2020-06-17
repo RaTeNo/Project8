@@ -27,7 +27,7 @@
 		<link rel="stylesheet" href="css/ion.rangeSlider.css">
 
 		<link rel="stylesheet" href="css/styles.css">
-		<link rel="stylesheet" href="css/warning.css">
+		<!-- <link rel="stylesheet" href="css/warning.css"> -->
 
 		<link rel="stylesheet" href="css/response_1185.css" media="(max-width: 1185px)">
 		<link rel="stylesheet" href="css/response_1023.css" media="(max-width: 1023px)">
@@ -41,18 +41,18 @@
 
 	</head>
 
-	<body>
-		<div class="warning">
+	<body class="header_fixed">
+		<!-- <div class="warning">
 			<svg width="29" height="25" viewBox="0 0 29 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path fill-rule="evenodd" clip-rule="evenodd" d="M21.0423 0H7.95767C7.45201 0 6.9846 0.265278 6.73107 0.694444L0.190151 11.8056C-0.0633837 12.2347 -0.0633837 12.7653 0.190151 13.1944L6.73107 24.3056C6.9846 24.7347 7.45201 25 7.95767 25H21.0423C21.548 25 22.0154 24.7347 22.2689 24.3056L28.8098 13.1944C29.0634 12.7653 29.0634 12.2347 28.8098 11.8056L22.2689 0.694444C22.0154 0.265278 21.548 0 21.0423 0ZM14.5 19.4444C13.7181 19.4444 13.0836 18.8222 13.0836 18.0556C13.0836 17.2889 13.7181 16.6667 14.5 16.6667C15.2819 16.6667 15.9164 17.2889 15.9164 18.0556C15.9164 18.8222 15.2819 19.4444 14.5 19.4444ZM13.0836 12.5C13.0836 13.2667 13.7181 13.8889 14.5 13.8889C15.2819 13.8889 15.9164 13.2667 15.9164 12.5V6.94444C15.9164 6.17778 15.2819 5.55556 14.5 5.55556C13.7181 5.55556 13.0836 6.17778 13.0836 6.94444V12.5Z" fill="white"/>
 				</svg>
-			Вы пользуетесь бесплатной и ограниченной версией сайта. Если вы владелец сайта - <a href="">свяжитесь с тех.поддержкой</a></div>
-		<div class="color_change">
+			Вы пользуетесь бесплатной и ограниченной версией сайта. Если вы владелец сайта - <a href="">свяжитесь с тех.поддержкой</a></div> -->
+		<!-- <div class="color_change">
 			<p><input type="text" class="color1"></p>
 			<p><input type="text" class="color2"></p>
 			<p><button class="apply">Применить</button></p>
 			<p><button class="clear">Очистить</button></p>
-		</div>
+		</div> -->
 		<div class="wrap">
 			<div class="main">
 				<!-- Шапка -->

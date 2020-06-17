@@ -207,15 +207,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "css/response_479.css",
-			"settings":
-			{
-				"buffer_size": 16535,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -279,6 +270,8 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/vers8/css/response_479.css",
+		"/C/xampp/htdocs/vers8/css/response_1023.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/posts.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/content-home.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/index.php",
@@ -319,8 +312,6 @@
 		"/C/xampp/htdocs/vers8/index.php",
 		"/C/xampp/htdocs/vers8/js/scripts.js",
 		"/C/xampp/htdocs/vers8/css/warning.css",
-		"/C/xampp/htdocs/vers8/css/response_479.css",
-		"/C/xampp/htdocs/vers8/css/response_1023.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/front-page.php",
 		"/C/xampp/htdocs/vers8/css/response_1185.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/index.php",
@@ -580,131 +571,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "css/response_479.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 16535,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12083,
-								12083
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										12088,
-										12089
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										11978,
-										11979
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"bs_sintax": "css",
-							"buffer_scroll_name": "ce269633",
-							"spell_check": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 12195.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -763,7 +631,7 @@
 	"project": "project8.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 90.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -783,7 +651,7 @@
 		[
 			[
 				"",
-				"C:\\xampp\\htdocs\\vers\\project1.sublime-project"
+				"C:\\xampp\\htdocs\\vers_black\\project_black_1.sublime-project"
 			]
 		],
 		"width": 380.0

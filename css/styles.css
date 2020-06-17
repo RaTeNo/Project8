@@ -1805,7 +1805,7 @@ header .menu .flexMenu-popup .item > a.touch_link + .sub_menu.show
     position: relative;
 
     border-radius: 50%;
-    background-color: var(--main_color1);
+    background-color: var(--main_color2);
 }
 .mob_header .socials a.more .arrow
 {
@@ -8287,3 +8287,58 @@ aside .submit .reset i:after
     margin-bottom:120px;
     margin-top: 0px;
 } 
+
+
+header.fixed {
+    position: fixed;
+    -webkit-animation: moveDown .5s;
+    animation: moveDown .5s;
+    background: #fff;
+}
+
+header.fixed .info {
+    padding: 20px 0 10px;
+}
+
+.mob_header.fixed {
+    position: fixed;
+    -webkit-animation: moveDown .5s;
+    animation: moveDown .5s;
+    background: #fff;
+    padding: 20px 0 10px;
+    width:100%;
+    z-index: 1000;
+}
+
+@media (max-width: 767px)
+{
+    .mob_header.fixed .bg{
+        display: none;
+    }
+}
+
+@-webkit-keyframes moveDown
+{
+    0%
+    {
+        -webkit-transform: translateY(-100px);
+                transform: translateY(-100px);
+    }
+}
+@-moz-keyframes moveDown
+{
+    0%
+    {
+        -webkit-transform: translateY(-100px);
+                transform: translateY(-100px);
+    }
+}
+@keyframes moveDown
+{
+    0%
+    {
+        -webkit-transform: translateY(-100px);
+                transform: translateY(-100px);
+    }
+}
+
