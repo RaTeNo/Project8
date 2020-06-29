@@ -1479,7 +1479,7 @@ header .menu .item > a.touch_link + .sub_menu.show
 header .menu .sub_menu a
 {
     color: #fff;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: normal;
     line-height: 17px;
 
@@ -1491,7 +1491,8 @@ header .menu .sub_menu a
     transition: background .2s linear;
     white-space: nowrap;
     text-decoration: none;
-    text-transform: none;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
 
     border-radius: 0;
 
@@ -1543,6 +1544,7 @@ header .menu .flexMenu-viewMore > a
     align-items: center;
     align-content: center;
     flex-wrap: nowrap;
+    letter-spacing: 2.7px;
 }
 
 header .menu .flexMenu-viewMore > a span
@@ -1607,7 +1609,7 @@ header .menu .flexMenu-popup .item
 header .menu .flexMenu-popup .item a
 {
     color: #fff;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 17px;
     font-weight: normal;
     display: flex;
@@ -1623,7 +1625,8 @@ header .menu .flexMenu-popup .item a
     align-items: center;
     align-content: center;
     flex-wrap: nowrap;
-    letter-spacing: 0;
+        text-transform: uppercase;
+    letter-spacing: 2.7px;
 }
 
 header .menu .flexMenu-popup .item:first-child a
