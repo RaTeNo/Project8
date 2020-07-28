@@ -1422,9 +1422,15 @@ header .menu .item > a span:after
     content: '';
     transform: rotate(-45deg);
 
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+}
+
+header .menu .item:hover > a span:after{
     border-bottom: 2px solid #fff;
     border-left: 2px solid #fff;
 }
+
 
 header .menu .item:hover > a,
 header .menu .item > a.active
@@ -1556,10 +1562,20 @@ header .menu .flexMenu-viewMore > a span:after
     content: '';
     transform: rotate(-45deg);
 
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+}
+
+header .menu .flexMenu-viewMore .item > a span:after{
     border-bottom: 2px solid #fff;
     border-left: 2px solid #fff;
 }
 
+header .menu .flexMenu-viewMore:hover > a span:after
+{
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
 header .menu .flexMenu-viewMore:hover > a,
 header .menu .flexMenu-viewMore.active > a
 {
