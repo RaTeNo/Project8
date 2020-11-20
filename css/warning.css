@@ -23,6 +23,10 @@
 	display: contents;
 }
 
+.warning + .warning{
+    margin-top:50px;
+}
+
 body{
 	margin-top:48px;
 }
