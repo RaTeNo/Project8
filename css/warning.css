@@ -27,6 +27,10 @@
     margin-top:50px;
 }
 
+.warning.splepoi{
+    background: var(--main_color2);
+}
+
 body{
 	margin-top:48px;
 }
@@ -47,7 +51,7 @@ body{
 }
 
 .overlay{
-    z-index: 1000;
+    z-index: 100;
 }
 
 @media (max-width: 1023px)
@@ -56,3 +60,4 @@ body{
         z-index: 1001 !important;
     }
 }
+
