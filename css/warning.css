@@ -35,6 +35,8 @@ body{
 	margin-top:48px;
 }
 
+
+
 @media (max-width: 1023px)
 {
 	.warning{
@@ -48,6 +50,10 @@ body{
 	body{
 		margin-top:90px;
 	}
+
+    body.eys{
+        margin-top:48px;
+    }
 }
 
 .overlay{
